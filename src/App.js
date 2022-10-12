@@ -1,13 +1,13 @@
-
-import Data from './developers/Data'
+import Home from "./components/Home"
 
 const App = () => {
   return (
     <>
-    <Data />
+    <Home />
     </>
   )
 }
+
 export default App
 
 
