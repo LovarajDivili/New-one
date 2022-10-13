@@ -1,4 +1,8 @@
-import Home from "./components/Home"
+//import Final from './Component/Final'
+
+import Home from './components/Home'
+
+
 
 const App = () => {
   return (
@@ -9,17 +13,3 @@ const App = () => {
 }
 
 export default App
-
-
-
-
-
-
-
-
-
-
-
-
-
-
