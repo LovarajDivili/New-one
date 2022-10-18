@@ -1,13 +1,15 @@
 .card-item{
-    display: flex;
    background-color: bisque;
    margin: 20px;
    padding: 20px;
    list-style-type: none; 
-   height: 150px;
-   width: 270px;
+   height: 300px;
+   width: 400px;
    border-radius: 10px;
    border-top: 5px solid #44c4a1;
+}
+.card {
+    display: flex;
 }
 
 .image {
@@ -31,6 +33,7 @@
 .disc {
     display: flex;
     flex-direction: column;
+    margin-bottom: 70px;
 
 
 }

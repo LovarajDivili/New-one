@@ -1,5 +1,5 @@
 
-
+import {Link} from 'react-router-dom'
 import './index.css'
 
 
@@ -7,18 +7,20 @@ import './index.css'
 
 const EmployeeCard = (props) => {
         const {cardDetails} = props
-        const {Name,Role,image_url} = cardDetails
+        const {id,Name,Role,image_url,Projects_Name} = cardDetails
 
         return(
-        <div>
-        <li className="card-item" >
-        <img src={image_url} alt="images" className="image"/>
-        <div className="disc">
+        <Link to={`/lovaraju/${id}`} >
+
+        <li className="card-item"  >
+        <img src={image_url} alt="imagess" className="image"/>
         <h1 className="heading">{Name}</h1>
         <h1 className="discription">{Role}</h1>
-        </div>
+        <h2 classNAme="paragraph">{Projects_Name}</h2>
+
+        
         </li>
-        </div>
+        </Link>
 
         )
     }

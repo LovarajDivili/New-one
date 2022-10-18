@@ -13,8 +13,8 @@ class Card extends Component {
   }
 
   renderAnswer = () => {
-    const {faqDetails} = this.props
-    const {answerText} = faqDetails
+    const {eachEmployee} = this.props
+    const {answerText} = eachEmployee
     const {isActive} = this.state
 
     if (isActive) {
@@ -47,13 +47,13 @@ class Card extends Component {
   }
 
   render() {
-    const {faqDetails} = this.props
-    const {questionText} = faqDetails
+    const {eachEmployee} = this.props
+    const {questionText} = eachEmployee
 
     return (
-      <li className="faq-item">
-        <div className="question-container">
-          <h1 className="question">{questionText}</h1>
+      <li className="employee-item">
+        <div className="employee-container">
+          <h1 className="heading">{questionText}</h1>
           {this.renderActiveImage()}
         </div>
         {this.renderAnswer()}

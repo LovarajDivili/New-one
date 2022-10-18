@@ -1,11 +1,12 @@
-const Employeedetails = [
+
+ [
     {
       "id" : 1,
       "Name": "Nikhil",
       "Role": "Sr. Developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "4 Years",
-      "Tech Stack": "React,Node & P9",
+      "TechStack": "React,Node & P9",
       "Employment": "Full Time",
       "Offshore": "True",
       "Projects": [
@@ -14,7 +15,7 @@ const Employeedetails = [
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "Developer",
-          "Tech Stack": "React,P9"
+          "Tech_Stack": "React,P9"
         }
       ]
     },
@@ -24,7 +25,7 @@ const Employeedetails = [
       "Role": "Sr. Developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "4 Years",
-      "Tech Stack": "React,Node & P9",
+      "TechStack": "React,Node & P9",
       "Employment": "Full Time",
       "Offshore": "True",
       "Projects": [
@@ -33,7 +34,7 @@ const Employeedetails = [
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "Developer",
-          "Tech Stack": "React,P9",
+          "Tech_Stack": "React,P9",
           "Allocation": "30%"
         },
         {
@@ -41,7 +42,7 @@ const Employeedetails = [
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "Developer",
-          "Tech Stack": "React,P9",
+          "Tech_Stack": "React,P9",
           "Allocation": "30%"
         }
       ]
@@ -52,7 +53,7 @@ const Employeedetails = [
       "Role": "QA",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-.png",
       "Experience": "1 Year",
-      "Tech Stack": "Manual,TOSCA",
+      "TechStack": "Manual,TOSCA",
       "Employment": "Full Time",
       "Offshore": "True",
       "Projects": [
@@ -61,7 +62,7 @@ const Employeedetails = [
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "QA",
-          "Tech Stack": "React,P9",
+          "Tech_Stack": "React,P9",
           "Allocation": "30%"
         }
       ]
@@ -70,9 +71,9 @@ const Employeedetails = [
       "id" : 4,
       "Name": "Garima",
       "Role": "Scrum Master",
-      "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
+      "image-url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -81,7 +82,7 @@ const Employeedetails = [
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
@@ -89,18 +90,18 @@ const Employeedetails = [
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
     },
     {
-      "id" : 6,
+      "id" : 5,
       "Name": "Revathi",
       "Role": "Human Resource manager",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -108,17 +109,17 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
-          "Allocation": "30%"
+          "Role": "HR",
+          "Tech_Stack": "",
+          "Allocation": ""
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
-          "Allocation": "30%"
+          "Role": "",
+          "Tech_Stack": "",
+          "Allocation": ""
         }
       ]
     },
@@ -126,9 +127,9 @@ const Employeedetails = [
       "id" : 7,
       "Name": "shiva Jjyothi",
       "Role": "Technical Lead",
-      "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
-      "Experience": "1 Year",
-      "Tech Stack": "",
+      "image-url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
+      "Experience": "3 Year",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -136,16 +137,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -154,9 +155,9 @@ const Employeedetails = [
       "id" : 8,
       "Name": "Ramana",
       "Role": "Manager",
-      "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
+      "image-url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -164,17 +165,17 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
-          "Allocation": "30%"
+          "Role": "",
+          "Tech_Stack": "",
+          "Allocation": ""
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
           "Role": "Scrum Master",
-          "Tech Stack": "",
-          "Allocation": "30%"
+          "Tech-Stack": "",
+          "Allocation": ""
         }
       ]
     },
@@ -184,7 +185,7 @@ const Employeedetails = [
       "Role": "Acountant",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -192,27 +193,27 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
-          "Allocation": "30%"
+          "Role": "",
+          "Tech_Stack": "",
+          "Allocation": ""
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
-          "Allocation": "30%"
+          "Role": "",
+          "Tech_Stack": "",
+          "Allocation": ""
         }
       ]
     },
     {
       "id" : 10,
       "Name": "Vijay sai",
-      "Role": "Juniour software developer",
+      "Role": "Junior software developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -220,27 +221,27 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
     },
     {
       "id" : 11,
-      "Name": "Harsha",
-      "Role": "juniour software developer",
+      "Name": "HarshaVardhan",
+      "Role": "junior software developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -248,16 +249,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -268,7 +269,7 @@ const Employeedetails = [
       "Role": "juniour software developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -276,27 +277,27 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
     },
     {
       "id" : 13,
-      "Name": "Sai srinivash",
+      "Name": "Sai-Srinivash",
       "Role": "uniour software developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -304,16 +305,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -324,7 +325,7 @@ const Employeedetails = [
       "Role": "Mechine Learning",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -332,16 +333,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -352,7 +353,7 @@ const Employeedetails = [
       "Role": "juniour software developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -360,16 +361,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -377,10 +378,10 @@ const Employeedetails = [
     {
       "id" : 16,
       "Name": "junidh",
-      "Role": "juniour software developer",
+      "Role": "mechine-Learning-Developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -388,16 +389,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -408,7 +409,7 @@ const Employeedetails = [
       "Role": "Testing",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
@@ -416,16 +417,16 @@ const Employeedetails = [
           "Name": "IAVR Enterprise",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]
@@ -435,24 +436,24 @@ const Employeedetails = [
       "Role": "juniour software developer",
       "image_url" : "https://www.kindpng.com/picc/m/4-41409_developer-png-png-download-developer-png-no-background.png",
       "Experience": "1 Year",
-      "Tech Stack": "",
+      "TechStack": "",
       "Employment": "Full Time",
       "Offshore": "False",
       "Projects": [
         {
-          "Name": "IAVR Enterprise",
+          "Name": "Genie-Project",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         },
         {
           "Name": "PAC",
           "Current Sprint": "",
           "Next Release": "20/10/2022",
-          "Role": "Scrum Master",
-          "Tech Stack": "",
+          "Role": "Developer",
+          "Tech_Stack": "",
           "Allocation": "30%"
         }
       ]

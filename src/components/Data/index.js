@@ -1,5 +1,6 @@
 import EmployeeCard from '../EmployeeCard'
-import DataE from './../DataE/index.json'
+//import DataE from './../DataE/index.json'
+import Json from './../Json/JsonData.json'
 
 import './index.css'
 
@@ -103,14 +104,13 @@ import './index.css'
 //   ]
 
 
-  const List = DataE
-
+  
   const Data = () => {
     return (
         <div className="container">
         <h1 className="heading">Developer-Details</h1>
         <ul className="cards-list">
-        {List.map(eachCard => (
+        {Json.map(eachCard => (
           <EmployeeCard cardDetails={eachCard} key={eachCard.id} />
         ))}
       </ul>

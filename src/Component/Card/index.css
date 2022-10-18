@@ -1,4 +1,4 @@
-.faq-item {
+.employee-item {
     width: 100%;
     border: 1px solid #d7dae6;
     border-radius: 16px;
@@ -6,14 +6,14 @@
     padding: 16px;
   }
   
-  .question-container {
+  .employee-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   
-  .question {
+  .heading {
     color: #52606d;
     font-family: 'Roboto';
     font-size: 12px;
@@ -21,7 +21,7 @@
   }
   
   @media screen and (min-width: 768px) {
-    .question {
+    .heading {
       font-size: 24px;
     }
   }

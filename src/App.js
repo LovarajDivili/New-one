@@ -1,15 +1,19 @@
-//import Final from './Component/Final'
+//import Appp from './components/Appp'
+import Apppp from './routeComponent/Apppp'
+//import EmployeeCard from './routeComponent/EmployeeCard'
+//import Footer from './routeComponent/Footer'
+//import ProjectData from './routeComponent/ProjectData'
 
-import Home from './components/Home'
-
+//import Extra from './routeComponent/Extra'
 
 
 const App = () => {
-  return (
+  return(
     <>
-    <Home />
+    <Apppp />
     </>
+    
+
   )
 }
-
 export default App

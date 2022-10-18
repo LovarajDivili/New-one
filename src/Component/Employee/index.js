@@ -1,19 +1,15 @@
-import Card from './../Card'
+//import Card from './../Card'
 
 import './index.css'
 
 const Employee = props => {
-  const {faqsList} = props
+  //const {EmployeeCard} = props
 
   return (
     <div className="app-container">
-      <div className="faqs-container">
-        <h1 className="heading">FAQs</h1>
-        <ul className="faqs-list">
-          {faqsList.map(eachFaq => (
-            <Card key={eachFaq.id} faqDetails={eachFaq} />
-          ))}
-        </ul>
+      <div className="employee-container">
+        <h1 className="heading">Employee Details</h1>
+        
       </div>
     </div>
   )
