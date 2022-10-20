@@ -1,7 +1,7 @@
 .card-item{
     display: flex;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: white;
     margin: 30px;
     padding: 20px;
     list-style-type: none;

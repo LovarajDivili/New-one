@@ -1,16 +1,17 @@
 import {Route, Switch} from 'react-router-dom'
 
 import Resources from '../Resources'
-import Home from './../Home'
+import Home from '../Home'
 import Projects from '../Projects'
-import EmployeeDetails from './../EmployeeDetails'
+import EmployeeDetails from '../EmployeeDetails'
+import LoginPage from './../LoginPage'
 import ProjectDetails from '../ProjectDetails'
-//import NotFound from './../NotFound'
+import NotFound from '../NotFound'
 
 import './index.css'
-import NotFound from '../../components/NotFound'
 
-const Apppp = () => (
+
+const FinalRouteComponents = () => (
   <div className="app-container">
     <div className="responsive-container">
       <div className="app-body">
@@ -18,8 +19,10 @@ const Apppp = () => (
           <Route exact path="/" component={Home} />
           <Route exact path="/Resources" component={Resources} />
           <Route exact path="/Projects" component={Projects} />
-          <Route exact path="/lovaraju/:id" component={EmployeeDetails} />
+          <Route exact path="/projects/:id" component={EmployeeDetails} />
           <Route exact path="/project_details" component={ProjectDetails} />
+          <Route exact path="/project_details/:projectname" component={ProjectDetails} />
+          <Route component={LoginPage} />
           <Route component={NotFound} />
         </Switch>
       </div>
@@ -27,4 +30,4 @@ const Apppp = () => (
   </div>
 )
 
-export default Apppp
+export default FinalRouteComponents

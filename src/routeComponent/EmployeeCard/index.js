@@ -28,7 +28,7 @@ const EmployeeCard = (props) => {
         const {id,Name,Role,image_url,Projects_Name} = cardDetails
 
         return(
-        <Link to={`/lovaraju/${id}`} className="nav-link" >
+        <Link to={`/projects/${id}`} className="nav-link" >
         <li className="card-item" style={{borderTopColor: randomcolors()}}  >
         <img src={image_url} alt="imagess" className="image"/>
         <div className="cards">

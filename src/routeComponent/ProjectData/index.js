@@ -1,9 +1,9 @@
 
 
 import './index.css'
-import {Link} from 'react-router-dom'
-//import ProjectDetails from './../ProjectDetails'
-
+//import {Link} from 'react-router-dom'
+import { v4 as uuidv4 } from 'uuid';
+import CardItem from './../CardItem'
 import OldJson from './../OldJson/jsonData.json'
 
 
@@ -31,14 +31,8 @@ const projectname = developer_details.map(eachItem=>{
 
 
 const uniq_project_names = [...new Set(newArray)];
-console.log(uniq_project_names)
+//console.log(uniq_project_names)
 
-
-
-const randomcolors = () => {
-    return  '#' +  Math.floor(Math.random() * 26743815).toString(6)
-//      Adding css  style 26723815 style={{backgroundColor : randomcolors()}}
-}
 
 
 
@@ -50,22 +44,25 @@ const randomcolors = () => {
         <>
         
 
-        <ul className="cards-lists">
+        <div className="cards-lists">
 
-        {uniq_project_names.map(eachName => (
-
-          <Link  to="/project_details" className="nav-link">
-
-          <li className="card-items" style={{borderTopColor: randomcolors()}} >  Project-Name :- <span>{eachName}</span>  </li>
-
-          </Link>
-
-        ))}
+        {uniq_project_names.map(eachName => {
+            return (
 
 
-      </ul>
+                <CardItem  key={uuidv4()} details={eachName}  />
+                   
+                            
+            )
+        })}
+        
+      </div>
+      
   
         </>
+
+    
+
 
     )
 }

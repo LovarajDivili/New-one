@@ -8,7 +8,7 @@ const Home = () => (
     <div className="home-container">
       <div className="home-content">
         <h1 className="home-heading">AIFA</h1>
-        <p className="paragraph"> Artificial Intelligence For All </p>
+        <p className="paragraphs"> Artificial Intelligence For All </p>
         <p  className="home-description">
             At AlFA labs, we bring transformation, process improvements, 
             and Machine First Human Assisted model to create the greatest 

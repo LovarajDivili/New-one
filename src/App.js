@@ -1,16 +1,18 @@
-//import Appp from './components/Appp'
-import Apppp from './routeComponent/Apppp'
-//import EmployeeCard from './routeComponent/EmployeeCard'
-//import Footer from './routeComponent/Footer'
-//import ProjectData from './routeComponent/ProjectData'
+import FinalRouteComponents from './routeComponent/FinalRouteComponents'  // work on dashboard and Projects
 
-//import Extra from './routeComponent/Extra'
+//import FinalLoginComponent from './loginComponent/FinalLoginComponent'  //work on Login Component
+
+//import FinalComponents from './components/FinalComponents'      //work on only cards and header
+
+
 
 
 const App = () => {
   return(
     <>
-    <Apppp />
+
+    <FinalRouteComponents />
+
     </>
     
 

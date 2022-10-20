@@ -10,6 +10,7 @@
 .top_details {
     display: flex;
     justify-content: space-around;
+    height: 10vh;
 }
 .cards {
     margin-top: 20px;
@@ -25,6 +26,7 @@
 .project_container {
     margin-top: 60px;
     margin-bottom: 20px;
+    justify-content: flex-start;
 }
 
 .project1_container {
@@ -37,7 +39,7 @@
     margin-left: 100px;
 
 }
-.heading {
+.headings {
     font-size: 14px;
     font-weight: 500;
 }

@@ -12,16 +12,13 @@
 
   .card-items{
     background-color: white;
-    text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 30px;
-    padding: 20px;
     list-style-type: none;
     box-shadow: 0px 3px 2px 0px;
-    height: 200px;
-    width: 98%;
+    height: 100px;
+    width: 20vw;
     border-radius: 10px;
     border-top: 5px solid #44c4a1;
  }
@@ -40,3 +37,15 @@
     font-weight: 500;
     color: black;
   }
+
+
+
+  /* <>
+  <div className="container">
+  <form>
+  <label>Enter Project Name</label>
+  <input type="text"/>
+  <button type="submit">Submit</button>
+  </form>
+  </div>
+  </> */
