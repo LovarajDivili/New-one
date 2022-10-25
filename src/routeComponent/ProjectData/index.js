@@ -1,6 +1,7 @@
 
 
 import './index.css'
+import { useState } from 'react';
 //import {Link} from 'react-router-dom'
 import { v4 as uuidv4 } from 'uuid';
 import CardItem from './../CardItem'
@@ -31,13 +32,11 @@ const projectname = developer_details.map(eachItem=>{
 
 
 const uniq_project_names = [...new Set(newArray)];
+
+
+const [search, setSearch] = useState('');
+   // console.log(search)
 //console.log(uniq_project_names)
-
-
-
-
-
-
 
     return(
 
@@ -45,6 +44,13 @@ const uniq_project_names = [...new Set(newArray)];
         
 
         <div className="cards-lists">
+        <div className="search_container">
+        <input type="search" placeholder="Search...!" className="search" 
+        value={search}
+        onChange={(event) => setSearch(event.target.value)} />
+      
+        <h3>Search</h3>
+        </div>
 
         {uniq_project_names.map(eachName => {
             return (

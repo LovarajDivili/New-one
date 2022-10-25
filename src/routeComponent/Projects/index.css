@@ -14,4 +14,10 @@
   .project-heading {
     text-align: center;
   }
+  .projects_container {
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    background-image: url("https://images.unsplash.com/photo-1572177812156-58036aae439c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  }
+
+  
 

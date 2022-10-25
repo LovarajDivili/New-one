@@ -1,6 +1,7 @@
 //import ProjectData from "../ProjectData"
 import { useParams } from "react-router-dom"
 import OldJson from './../OldJson/jsonData.json'
+import { Link } from "react-router-dom"
 import "./index.css"
 import ProjectData from "../ProjectData"
 import Footer from "../Footer"
@@ -81,6 +82,10 @@ const ProjectDetails = ({match}) => {
 
         <div className="card">
 
+    <Link to='/Projects'>
+    <h1 className="back">X</h1>
+    </Link>
+
 
 
         <h1> Project Name : <span className="heading-text">{projectname}</span></h1> <br/>
@@ -95,7 +100,8 @@ const ProjectDetails = ({match}) => {
 
                
 
-                <p ><span >{e.Name}</span> - <span className="text-color">{e.Role}</span></p>
+                <p ><span className="textColor" >{e.Name}</span> - <span className="text-color">{e.Role}</span></p>
+                <hr />
 
                 </>
 

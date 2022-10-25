@@ -8,7 +8,7 @@ import ProjectData from './../ProjectData'
 import './index.css'
 
 const Projects = () => (
-  <>
+  <div className="projects_container">
   <Header />
 
   <div>
@@ -19,7 +19,7 @@ const Projects = () => (
     <Footer />
     
     
-  </>
+  </div>
 )
 
 export default Projects

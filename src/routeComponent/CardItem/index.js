@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid';
+import ProjectDetails from '../ProjectDetails';
 
 import { Link } from 'react-router-dom';
 import Data from "../../data.json"
@@ -11,7 +12,7 @@ const CardItem = ({details}) => {
     
     
   const projectName = details
-  console.log(projectName)
+  console.log()
  
  const myArray = []
  
@@ -34,6 +35,8 @@ const CardItem = ({details}) => {
   return (
     <>
     
+    
+
     <Link to={`/project_details/${projectName}`} 
     style={{borderTopColor: randomcolors()}}
     className="nav-link" >
@@ -43,6 +46,8 @@ const CardItem = ({details}) => {
      
     </div>
     </Link>
+
+    
     </>
     
   )

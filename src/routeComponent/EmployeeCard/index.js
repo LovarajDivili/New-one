@@ -32,7 +32,7 @@ const EmployeeCard = (props) => {
         <li className="card-item" style={{borderTopColor: randomcolors()}}  >
         <img src={image_url} alt="imagess" className="image"/>
         <div className="cards">
-        <h1 className="heading">Name :- {Name}</h1>
+        <h1 className="heading">{Name}</h1>
         <h1 className="discription">Role :- {Role}</h1>
         <h1 className="discription">Project-Name :- {Projects_Name}</h1>
         </div>

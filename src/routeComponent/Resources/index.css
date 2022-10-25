@@ -29,5 +29,12 @@
   }
   .headingsss {
     font-size: 22px;
+    color: white;
     text-align: center;
+  }
+  
+
+  .developer_container {
+    
+    background: rgba(0, 0, 0, 0.85);
   }
