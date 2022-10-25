@@ -1,11 +1,13 @@
 
 import React from 'react'
 import { v4 as uuidv4 } from 'uuid';
-import ProjectDetails from '../ProjectDetails';
+//import ProjectDetails from '../ProjectDetails';
+
 
 import { Link } from 'react-router-dom';
 import Data from "../../data.json"
 import "./index.css"
+//import SideBar from '../SideBar';
 
 const CardItem = ({details}) => {  
 
@@ -46,6 +48,7 @@ const CardItem = ({details}) => {
      
     </div>
     </Link>
+
 
     
     </>

@@ -41,6 +41,12 @@
 
  .discription {
     font-size: 16px;
+    margin-top: 40px;
+    margin-right: 30px;
  
+ }
+
+ .pro_card {
+   display: flex;
  }
  
